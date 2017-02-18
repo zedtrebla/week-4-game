@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: http://images.all-free-download.com/images/graphiclarge/nostalgic_blue_background_04_hd_pictures_169785.jpg;
+	font-size: 15px;
+	line-height: 20px;
+	font-family: 'Arial', "Helvetica Neue", Helvetica, Sans-serif;
+	color: #777;
+	}
+
+	.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+	}
+
+
+
+	@media screen and (max-width: 980px) {
+	body {
+		background-color: lightgray;
+	}
+	.wrapper{
+		width: 600px;
+	}
+}
+
+	@media screen and (max-width: 768px) {
+	body {
+		background-color: lightgray;
+	}
+	.wrapper{
+		width: 600px;
+	}
+}
+
+	@media screen and (max-width: 640px) {
+	body {
+		background-color: lightgray;
+	}
+	.wrapper{
+		width: 600px;
+	}
+}
